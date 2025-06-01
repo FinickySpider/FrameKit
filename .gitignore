@@ -84,5 +84,5 @@ app-example
 # 🚫 Miscellaneous
 # ------------------------------
 .turbo/
-.CoPilot-Chats/*
-CoPilot-Chats/Add Tool Guide.prompt.md
+CoPilot-Chats/
+
