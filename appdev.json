@@ -1,0 +1,1 @@
+\r\nUser clicks a Tool in NavBar\r\n    -> NavBar notifies AppShell (or via context)\r\n    -> AppShell looks up registered SidePanel for tool, renders it\r\n    -> AppShell looks up registered MainContent for tool, renders it\r\n    -> Any selection made in MainContent triggers InspectorPanel update,\r\n         using registered inspector for the selection/context type\r\n

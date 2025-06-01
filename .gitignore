@@ -1,0 +1,87 @@
+# ------------------------------
+# 📦 Node / JavaScript basics
+# ------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# ------------------------------
+# 🔧 TypeScript cache
+# ------------------------------
+*.tsbuildinfo
+
+# ------------------------------
+# 🏗 Build & Output
+# ------------------------------
+dist/
+build/
+web-build/     # ← Expo web output
+
+# ------------------------------
+# 🔥 Expo & Metro bundler
+# ------------------------------
+.expo/
+.expo-shared/
+*.expo*
+*.metro-cache/
+*.metro-health-check*
+*.packager-cache/
+expo-env.d.ts
+
+# ------------------------------
+# 🔐 Environment files
+# ------------------------------
+.env
+.env.*.local
+.env*.local
+
+# ------------------------------
+# 💻 System files & OS
+# ------------------------------
+.DS_Store
+Thumbs.db
+.Trashes
+*.pem
+
+# ------------------------------
+# 🧠 IDE / Editor files
+# ------------------------------
+.vscode/
+.idea/
+
+# ------------------------------
+# 🧪 Test snapshots (optional)
+# ------------------------------
+__snapshots__/
+
+# ------------------------------
+# ✨ Next-level extras (optional)
+# ------------------------------
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ------------------------------
+# 📱 Native/mobile (Android/iOS/Kotlin/etc.)
+# ------------------------------
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# ------------------------------
+# 🔬 Misc / Examples / Local
+# ------------------------------
+app-example
+
+# ------------------------------
+# 🚫 Miscellaneous
+# ------------------------------
+.turbo/
+
